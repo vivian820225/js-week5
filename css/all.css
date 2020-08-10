@@ -1,0 +1,396 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.fn_en {
+  font-family: 'Alef', Arial, sans-serif;
+}
+
+.bg_cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.sub_title {
+  display: block;
+  font-size: 1rem;
+  opacity: .4;
+}
+
+.material-icons {
+  display: block;
+}
+
+.logo {
+  color: #124559;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  padding: 0.5rem 2rem;
+}
+
+.footer {
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+.footer h5 {
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.banner {
+  max-width: 100%;
+  height: 180px;
+  margin-bottom: 40px;
+}
+
+.products_banner {
+  background-image: url(https://images.unsplash.com/photo-1527903789995-dc8ad2ad6de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1007&q=80);
+}
+
+.side_title {
+  color: #598392;
+  font-size: 2rem;
+}
+
+.series {
+  color: #124559;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.series a {
+  display: block;
+  padding: 1rem 0 1rem 0.5rem;
+}
+
+.series a:hover {
+  color: #598392;
+  background-color: #f8f9fa;
+}
+
+.products_list {
+  margin-bottom: 80px;
+}
+
+.product {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.333%;
+          flex: 1 1 33.333%;
+  max-width: 33.333%;
+  margin-bottom: 1.5rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  border-color: #e9ecef;
+  position: relative;
+}
+
+.product:hover .more_info {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.product_top {
+  border-top-left-radius: initial;
+  border-top-right-radius: initial;
+  position: relative;
+  overflow: hidden;
+}
+
+.more_info {
+  padding: 1rem 1rem 0.5rem 1.25rem;
+  color: #fff;
+  font-size: 1.125rem;
+  background-color: #f6be9a;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.more_info:hover {
+  color: #598392;
+}
+
+.product_body {
+  padding: 0.5rem 0.25rem 0 0.25rem;
+}
+
+.price {
+  color: #598392;
+  font-size: 2rem;
+}
+
+.price::before {
+  content: '$';
+  margin-right: 0.25rem;
+}
+
+.add_cart {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #598392;
+  background-color: transparent;
+  font-size: 2.4rem;
+  border: none;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+  z-index: 1;
+}
+
+.add_cart .material-icons {
+  font-size: inherit;
+}
+
+.add_cart:hover {
+  color: #f6be9a;
+}
+
+.add_cart:focus {
+  outline: transparent;
+}
+
+@media (max-width: 1200px) {
+  .product {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .product {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 1.25rem;
+  }
+}
+/*# sourceMappingURL=all.css.map */

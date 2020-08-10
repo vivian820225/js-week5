@@ -1,0 +1,23 @@
+@mixin fn_en {
+    font-family: 'Alef', Arial, sans-serif;
+}
+
+.fn_en {
+    @include fn_en;
+}
+
+.bg_cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.sub_title {
+    display: block; 
+    font-size: 1rem;
+    opacity: .4;
+}
+
+.material-icons {
+    display: block;
+}

@@ -1,0 +1,17 @@
+.logo {
+    color: $primary;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    padding: 0.5rem 2rem;
+}
+
+.footer {
+    background-color: $gray;
+    text-align: center;
+    h5 {
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+}
